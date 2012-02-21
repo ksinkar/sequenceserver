@@ -147,7 +147,7 @@ $(document).ready(function(){
         $.onedb();
     });
 
-    $('input:submit').click(function(){
+    $('#blast').submit(function(){
         var button = $(this);
 
         //prevent submitting another query while this one is being processed
